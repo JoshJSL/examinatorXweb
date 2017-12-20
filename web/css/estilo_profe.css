@@ -1,0 +1,163 @@
+    *{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+
+
+body{
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0, #CFCFCF),
+        color-stop(1, #D4D4D4)
+        );
+    background-image: -o-linear-gradient(bottom, #CFCFCF 0%, #D4D4D4 100%);
+    background-image: -moz-linear-gradient(bottom, #CFCFCF 0%, #D4D4D4 100%);
+    background-image: -webkit-linear-gradient(bottom, #CFCFCF 0%, #D4D4D4 100%);
+    background-image: -ms-linear-gradient(bottom, #CFCFCF 0%, #D4D4D4 100%);
+    background-image: linear-gradient(to bottom, #CFCFCF 0%, #D4D4D4 100%);
+}
+
+
+
+.barraElementos{
+    padding: 30px;
+    width: 163px;
+    font-family: Arial;
+    font-size: 23px;
+    color: #fff;
+    -webkit-transition:0.6s;
+    -moz-transition:0.7s;
+    -o-transition:0.6s;
+    -ms-transition:.9s;
+    transition:0.4s;
+    text-align: center;
+}
+
+
+.pur:hover{
+    box-shadow: inset 0px 15px 0px  0px #DA95DC;
+}
+
+
+.blue:hover{
+    box-shadow: inset 0px 15px 0px  0px rgb(127, 179, 213);
+}
+
+
+.red:hover{
+    box-shadow: inset 0px 15px 0px  0px #D20505;
+}
+
+
+.purp:hover 
+{
+    box-shadow: inset 0px 15px 0px  0px #EBEB03;
+}
+
+
+.green:hover{
+    box-shadow: inset 0px 15px 0px  0px #04A82A;
+}
+
+
+.orange:hover{
+    box-shadow: inset 0px 15px 0px  0px #FF8900;
+}
+
+a:link{
+    text-decoration:none;
+    color:white;
+}
+
+
+.contenido{
+    margin:auto;
+    margin-top:80px;
+    width:80%;
+    background-color:rgba(0,0,0,0.8);
+    box-shadow: 0px 0px 0px 20px rgba(0,0,0,0);
+    transition:0.6s;
+    padding: 0 20px;
+    display: flex;
+    flex-direction:  row;
+    flex-wrap: wrap;
+}
+
+
+
+.gruposLabel
+{
+    list-style:none;
+    font-family:arial;
+    font-size:30px;
+    color:white;
+    text-align:center;
+    
+}
+
+
+select, input {
+
+   
+    font-size: 25px;
+    color: #000 ;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-left: 0.5%;
+    padding-right:  0.5%;
+
+
+}
+
+
+table{
+    width: 100%;
+    font-size: 20px;
+
+}
+
+
+table tr td{
+    text-align: center;
+    padding: 4% 2%;
+
+}
+
+.herr{
+    width: 250px;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.tablita
+{
+    padding: 0 0;
+    width: 700px;
+    margin: 50px auto;
+
+}
+
+.encabezado{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+    justify-content: space-around;
+}
+
+.datos{
+    
+    color: #FFF;
+    font-size: 30px;
+}
+
+#formu{
+    
+    display: none;
+    
+}

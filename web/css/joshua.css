@@ -1,0 +1,67 @@
+body{
+	background: #000000 url(../img/primeoft.jpg) fixed no-repeat center; 
+	color: #FFF;
+	margin: 0px auto;
+}
+
+#general{
+	background-color:rgba(200,0,125,0.6); 
+	width:92%;
+	margin: 0px auto;
+}
+
+#cuerpo{
+	width:80%;
+	margin: 8% auto;
+
+}
+
+#nombre{
+	color: #FFF;
+	font-family: arial;
+	font-size: 50px;
+}
+
+#years{
+	color: #FFF;
+	font-family: arial;
+	font-size: 35px;
+	margin: 0px auto;
+}
+
+#titulo{
+	position: fixed;
+	top:0;
+	
+	left:4%;
+	
+
+	background-color: rgba(31, 0, 26, 0.95); 
+	width:92%;
+
+	text-align: center;
+
+}
+#biografia{
+	text-align: justify;
+	letter-spacing:1px; 
+	font-size: xx-large; 
+	padding-bottom: 30px;
+	font-family: Impact;
+	font-size: 30px;
+	text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+
+}
+span[title="Animales mitológicos chidos "] {
+	color:#FF66B2;
+}
+
+span[title="Escuela perteneciente al IPN"] {
+	color:#6666FF;
+}
+
+img {
+	width: 30%;
+	border-radius: 15px;
+	box-shadow: 10px 10px 1px rgba(0,0,0,0.6);
+}

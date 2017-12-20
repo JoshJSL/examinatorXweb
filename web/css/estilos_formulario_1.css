@@ -1,0 +1,144 @@
+*
+{
+	margin:0px;
+	padding: 0px;
+}
+body
+{
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #CFCFCF),
+	color-stop(1, #D4D4D4)
+);
+background-image: -o-linear-gradient(bottom, #CFCFCF 0%, #D4D4D4 100%);
+background-image: -moz-linear-gradient(bottom, #CFCFCF 0%, #D4D4D4 100%);
+background-image: -webkit-linear-gradient(bottom, #CFCFCF 0%, #D4D4D4 100%);
+background-image: -ms-linear-gradient(bottom, #CFCFCF 0%, #D4D4D4 100%);
+background-image: linear-gradient(to bottom, #CFCFCF 0%, #D4D4D4 100%);
+}
+
+.encabezado{
+	width:100%;
+	height:80px;
+	background-color:rgba(15, 15, 15,0.8); 
+	position:fixed;
+}
+.Contenido
+{
+
+	margin:auto;
+	width:500px;
+	height: 500px;
+	background-color:rgba(15, 15, 15,0.8); 
+	-webkit-transition:0.6s;
+	-moz-transition:0.6s;
+	transition:0.6s;
+}
+
+@keyframes formula
+{
+	50%{-webkit-box-shadow:inset 0px 0px 0px 1000px #7C950F;  }
+	100%{-webkit-box-shadow:inset 0px 0px 0px 0px #7C950F;}
+}
+.Contenido:hover
+{
+animation-name:formula;
+animation-duration:2s;
+}
+.T_or_S:hover
+{
+animation-name:formula;
+animation-duration:2s;
+}
+
+.tit
+{
+		font-size:40px;
+		padding-top:15px;
+			animation-name:fcto;
+	animation-duration:4s;
+
+}
+.letra
+{
+	font-family: arial;
+	color: white;
+	list-style:none;
+}
+.inicio
+{
+	font-size:40px;
+	padding-top:60px;
+
+}
+.formi
+{
+	font-size:20px;
+	display:inline;
+}
+.campo
+{
+	padding-top:50px;
+
+}
+.texto
+{
+	border-radius:5px;
+	border: solid rgba(36, 36, 35,0.9);
+	height:20px;
+
+}
+.nc
+{
+	padding-top:50px;
+}
+.boton_t1
+{
+
+	border-radius:5px;
+	border: solid rgb(3, 115, 111  );
+	background-color: rgb(3, 115, 111 );
+		-webkit-transition:0.6s;
+	-moz-transition:0.6s;
+	transition:0.6s;
+}
+.boton_t1:hover
+{
+
+	cursor: pointer; 
+            
+        
+        
+        
+    
+}
+a:link   
+{   
+ text-decoration:none;
+   
+}   
+.T_or_S
+{
+	
+	margin:auto;
+	width:300px;
+	height: 200px;
+	background-color:rgba(15, 15, 15,0.8); 
+	-webkit-transition:0.6s;
+	-moz-transition:0.6s;
+	transition:0.6s;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+}
+
+.mensaje{
+    
+    font-size: 20px;
+    font-family: arial;
+    color: white;
+    
+}

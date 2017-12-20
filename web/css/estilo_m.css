@@ -1,0 +1,31 @@
+body
+{
+background-color: black;
+}
+#titulo
+{
+	font-family: Arial;
+	color:white;
+}
+
+#color 
+{
+	background-color: rgba(0, 0, 255,0.8);
+	-webkit-transition:1s;
+}
+
+.colo 
+{
+	background-color: rgba(0, 0, 255,0.8);
+}
+
+#color:hover
+{
+	 
+}
+
+.subtitulo
+{
+	font-family: Arial;
+	color:white;
+}

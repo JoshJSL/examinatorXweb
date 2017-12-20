@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	 version="3.1">
+    <session-config>
+        <session-timeout>
+            60
+        </session-timeout>
+    </session-config>
+    
+    <context-param> 
+        <description>ubicacion de los archivos</description> 
+        <param-name>rutaArchivos</param-name> 
+        <param-value>
+            C:\Users\joshu\Documents\NetBeansProjects\Examiteitor-x_primeSoft\web\foto\
+        </param-value> 
+    </context-param>
+    
+    
+</web-app>

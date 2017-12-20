@@ -1,0 +1,214 @@
+*
+{
+	margin:0px;
+	padding: 0px; 
+	font-family: arial
+}
+
+#menu
+{
+
+	width: 100%;
+	background-color: #383838  ;
+	font-family: arial;
+	position: fixed;
+
+}
+
+.bot
+{
+	list-style: none;
+	text-decoration: none;
+	float: left;
+	padding: 25px 60px;
+	color: white;
+	-webkit-transition:0.3s;
+	cursor:pointer;
+
+}
+#azul:hover
+{
+	-webkit-box-shadow: inset 0px 10px 0px 0px rgba(85, 118, 145, 1);
+}
+#rojo:hover
+{
+    -webkit-box-shadow: inset 0px 10px 0px 0px rgba(197, 34, 53, 1); 
+}
+#verde:hover
+{
+    -webkit-box-shadow: inset 0px 10px 0px 0px rgba(123, 164, 46, 1); 
+
+}
+#amarillo:hover
+{
+	-webkit-box-shadow: inset 0px 10px 0px 0px rgba(255, 223, 96, 1); 
+
+}
+#rosa:hover
+{
+	-webkit-box-shadow: inset 0px 10px 0px 0px rgba(249, 38, 91, 1); 
+
+}
+#logo:hover
+{
+	animation-name:logo;
+	animation-duration:8s;
+	animation-iteration-count: 100;
+	padding: 25px 90px;
+}
+#logoa{
+	float: right;
+	width: 70px;
+}
+@keyframes logo
+{
+   0%   {background-color:rgba(85, 118, 145, 1);  }
+    25%  {background-color:rgba(197, 34, 53, 1); }
+    50%  {background-color:rgba(123, 164, 46, 1); }
+    75%  {background-color:rgba(255, 223, 96, 1); }
+    100% {background-color:rgba(85, 118, 145, 1);}
+}
+
+#amarillo:active
+{
+	-webkit-transition:0.1s; 
+	color: black;
+	-webkit-box-shadow: inset 0px 70px 0px 0px rgba(255, 223, 96, 1); 
+	
+}
+#azul:active
+{
+	-webkit-transition:0.1s; 
+	-webkit-box-shadow: inset 0px 70px 0px 0px rgba(85, 118, 145, 1);
+	
+}
+#verde:active
+{
+	-webkit-transition:0.1s; 
+	color: black;
+	-webkit-box-shadow: inset 0px 70px 0px 0px rgba(123, 164, 46, 1); 
+	
+}
+#rojo:active
+{
+	-webkit-transition:0.1s; 
+	color: black;
+	-webkit-box-shadow: inset 0px 70px 0px 0px rgba(197, 34, 53, 1); 
+	
+}
+#rosa:active
+{
+	-webkit-transition:0.1s; 
+	color: black;
+	-webkit-box-shadow: inset 0px 70px 0px 0px rgba(249, 38, 91, 1); 
+	
+}
+.pag
+{
+margin-bottom: 100px;
+width:100%;
+height:800px;
+
+}
+.erojo
+{
+background-color:  rgba(197, 34, 53, 1);
+}
+.everde
+{
+	background-color: rgba(123, 164, 46, 1);
+}
+
+.textoChi{
+	padding: 10px;
+	font-size: 26px;
+}
+.eamarillo
+{
+	background-color: rgba(255, 223, 96, 1);
+}
+.eazul
+{
+	background-color: rgba(85, 118, 145, 1);
+}
+.texto1{
+	font-size: 70px;
+}
+
+.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.action-button
+{
+	position: relative;
+	padding: 10px 40px;
+  margin: 0px 10px 10px 0px;
+  float: left;
+	border-radius: 10px;
+	font-family: arial, cursive;
+	font-size: 25px;
+	color: #FFF;
+	text-decoration: none;	
+}
+
+.blue
+{
+	background-color: #3498DB;
+	border-bottom: 5px solid #2980B9;
+	text-shadow: 0px -2px #2980B9;
+}
+.brown
+{
+	background-color: #A5422D;
+	border-bottom: 5px solid #8A3726;
+	text-shadow: 0px -2px #8A3726;
+}
+.red
+{
+	background-color: #E74C3C;
+	border-bottom: 5px solid #BD3E31;
+	text-shadow: 0px -2px #BD3E31;
+}
+
+.green
+{
+	background-color: #82BF56;
+	border-bottom: 5px solid #669644;
+	text-shadow: 0px -2px #669644;
+}
+
+.yellow
+{
+	background-color: #F2CF66;
+	border-bottom: 5px solid #D1B358;
+	text-shadow: 0px -2px #D1B358;
+}
+
+.action-button:active
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid  rgba(235, 235, 235, 0.3);
+
+}
+.tituloPrincipal
+{
+	font-size:100px;
+	list-style:none;
+	text-align:center;
+	letter-spacing:10px;
+	  color: transparent;
+   text-shadow: 0 0 5px rgba(0,0,0,0.5);
+   	animation-name:prin;
+	animation-duration:2s;
+	transition:1s;
+
+}
+
+body:hover .tituloPrincipal
+{
+ text-shadow: 0 0 0px rgba(0,0,0,0.5);
+}

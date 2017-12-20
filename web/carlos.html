@@ -1,0 +1,120 @@
+<html>
+<head>
+	<title>Carlos Isaac</title>
+	<meta charset="utf-8">
+
+<style type="text/css">
+	*
+	{
+		margin:0px;
+		padding:0px;
+	}
+
+
+	table
+	{
+		margin-top:75px;
+	}
+	body:hover #titulo
+	{
+		background-color: rgba(0,0,0,0.8);
+	}
+	body:hover #descripcion
+	{
+		background-color: rgba(0,0,0,0.6);
+	}
+	body:hover #bio
+	{
+		background-color: rgba(0,0,0,0.7);
+	}
+
+
+	#titulo
+	{
+		background-color: rgba(0,0,0,0.0);
+		-webkit-transition:1.5s;
+	}
+
+	#descripcion
+	{
+		background-color: rgba(0,0,0,0.0);
+		-webkit-transition:2s;
+	}
+
+	#bio
+	{
+		background-color: rgba(0,0,0,0.0);
+		-webkit-transition:3s;
+	}
+
+	.titu
+	{
+		color:white;
+		font-family:arial;
+	}
+
+	#bio:active
+	{
+		background-color:red;
+	}
+
+	.texto
+	{
+		margin-left: 20px;
+		color: white;
+		font-family: arial;
+		font-style:20px;
+	}
+	.imag
+	{
+		opacity: 0.0;
+		-webkit-transition:3s;
+	}
+
+	body:hover .imag
+	{
+		opacity: 1;
+	}
+        
+        td, tr{
+            padding: 30px 20px;
+        }
+</style>
+</head>
+<body>
+
+<div align="center"> <table width="800" border="0">
+	<tr >
+
+		<td id="titulo" colspan="2">
+			<div align="center"><h1 class="titu">Carlos Isaac Naranjo Oritz </h1></div>
+		</td>
+		
+	</tr>
+
+	<tr>
+		<td id="descripcion" width="350" >
+			<div align="center"><h2 class="titu">Cosas que me gustan </h2></div>
+			<br>
+                        <ul>
+			<li class="texto">Me gusta jugar basketball</li>
+			<li class="texto">Andar en bicicleta</li>
+			<li class="texto">Saltarme la clase de Inglés</li>
+			<li class="texto">Comprar tenis chidos</li>
+			<li class="texto">La programación</li>
+                        </ul>
+			
+		</td>
+
+		<td id="bio" width="450">
+			<div align="center"><h2 class="titu">Biografia</h2> 
+			<br>
+			<p class="texto">Nací el 2 de Abril del 2000 en el Distrito Federal, soy el menor de mi familia, entre a la escuela a los 4 años y estuve en la misma escuela de kinder a secundaria, me empezó a interesar la programación a los 10 años pero no le entendí, en 2015 hice mi Examen COMIPEMS y me quede en mi primera opción que es el Cecyt 9 y luego elegí la carrera de programación </p>
+			<img src="img/img_c.jpg" width="300" height="200" class="imag">
+			
+		</td>
+	</tr>
+</div></table>
+
+</body>
+</html>
