@@ -27,8 +27,9 @@
     String codigo="";
     
     if(!clave.equals("")&&!contra.equals("")&&!queEs.equals("")){
+        
         p.obten("0", clave);
-        mail=p.entra(clave, contra, "");
+        mail=p.entras(clave, contra, "");
         codigo=md5.md5(p.getNomCompleto()+clave+(rnd.nextInt(100)+1));
         if(p.confirma("", (p.getId()), 1)){
             out.println("<script>window.history.back();</script>");

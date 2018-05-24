@@ -6,9 +6,9 @@
    HttpSession sesX= request.getSession();
     String id=(String)sesX.getAttribute("id");
     String msj="";
-    String clave=request.getParameter("clave")==null?"":request.getParameter("clave");
-    String contra=request.getParameter("contra")==null?"":request.getParameter("contra");
-    String btn=request.getParameter("Iniciar")==null?"":request.getParameter("Iniciar");
+    String clave=request.getParameter("clave")==null?"":(String)request.getParameter("clave");
+    String contra=request.getParameter("contra")==null?"":(String)request.getParameter("contra");
+    String btn=request.getParameter("Iniciar")==null?"":(String)request.getParameter("Iniciar");
     if(id!=null){
         sesX.invalidate();
     }else{
@@ -17,7 +17,7 @@
             if(!clave.equals("")&&!contra.equals("")){
                 if(val.num(clave)&&val.contra(contra)){
                     persona p=new persona();
-                    String ide = p.entra(clave, contra, "alumno");
+                    String ide = p.entras(clave, contra, "alumno");
                     if(val.esNum(ide)){
                         sesX.setAttribute("id", ide);
                         response.sendRedirect("alumno/Index2.jsp");

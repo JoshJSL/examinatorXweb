@@ -17,7 +17,7 @@
             if(!clave.equals("")&&!contra.equals("")){
                 if(val.num(clave)&&val.contra(contra)){
                     persona p=new persona();
-                    String ide = p.entra(clave, contra, "profe");
+                    String ide = p.entras(clave, contra, "profe");
                     if(val.esNum(ide)){
                         sesX.setAttribute("id", ide);
                         response.sendRedirect("Profesor/Index2.jsp");

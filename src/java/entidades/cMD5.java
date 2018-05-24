@@ -5,7 +5,7 @@
  */
 package entidades;
 
-//import org.apache.commons.codec.digest.DigestUtils;
+import org.apache.commons.codec.digest.DigestUtils;
 
 /**
  *
@@ -16,8 +16,8 @@ public class cMD5 {
     public String md5(String text){
       //  
        String textoSinEncriptar=text; 
-       // String textoEncriptadoConMD5=DigestUtils.md5Hex(textoSinEncriptar); 
-       return textoSinEncriptar;
+        String textoEncriptadoConMD5=DigestUtils.md5Hex(textoSinEncriptar); 
+       return textoEncriptadoConMD5;
 
     }
     

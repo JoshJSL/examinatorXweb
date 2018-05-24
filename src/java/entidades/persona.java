@@ -99,7 +99,7 @@ public class persona {
         return "../foto/"+this._foto; 
     }
     
-    public String entra(String _clave, String _contra, String _tipo) throws SQLException{
+    public String entras(String _clave, String _contra, String _tipo) throws SQLException{
         cDatos conec=new cDatos();
         conec.conectar();
         ResultSet msj=conec.ejecuta("call spEntra('"+_clave+"', '"+_contra+"', '"+_tipo+"')");
@@ -126,7 +126,8 @@ public class persona {
     public boolean confirma(String codigo,String id, int vez) throws SQLException{
         cDatos conec=new cDatos();
         conec.conectar();
-        ResultSet msj =conec.ejecuta("call spRevisa("+id+", "+vez+", '"+codigo+"')");
+        System.out.println(id+" "+vez +" " +codigo);
+        ResultSet msj =conec.ejecuta("call spRevisa('"+id+"', '"+vez+"', '"+codigo+"');");
         msj.next();
         String mensa=msj.getNString("mensaje");
         return mensa.equals("si");
